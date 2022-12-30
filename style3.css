@@ -229,9 +229,8 @@ html,body {
           .footer {
             display: flex;
             justify-content:center;
-            align-items:left;
-            align-items: center;
             align-items: flex-start;
             flex-direction: column;
+            padding-left:6px;
           }
         }
