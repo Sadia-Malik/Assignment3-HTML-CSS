@@ -1,0 +1,237 @@
+
+/* ***************main Section************** */
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+  }
+      .main{
+         background: #1d172a;
+         padding-bottom: 70px;
+         padding-top: 10px;
+          }
+
+          .width{
+              width: 700px;
+              padding: 10px 5px;
+              margin: 10px auto;
+              text-align: center;
+          }
+          .width h1{
+              text-align: center;
+              padding: 10px 4px 0px 4px;
+              font-size:40px;
+              font-weight: 480;
+              word-spacing: 2;
+              color: #fff;
+          }
+           .width p{
+            font-size:15px;
+            font-style: italic;
+            color: #fff;
+  
+          }
+          .new{
+              width:250px;
+              height: 240px;
+              padding:30px 30px;
+              margin: 15px 10px;
+              border: 1px solid  rgb(61 64 92);
+              border-radius: 15px;
+              text-align: center;
+              color: #fff;
+          }
+          .new h2{
+              font-weight:400 ;
+              font-size: 24px;
+          }
+          .new p{
+              font-size: 17px;
+              font-style: italic;
+              padding: 0 5px;
+  
+          }
+          .new1{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+         
+/* ***********************footer section************           */
+
+         
+          .footer {
+            width: 100%;
+            background-color: #3E466D;
+            display: flex;
+            justify-content: space-evenly;
+          }
+        
+          .backg{
+            background-color: #3E466D;
+            padding: 5px;
+           }
+
+
+          /* **********column1*************** */
+
+           .text{
+            width: 280px;
+            padding: 10px 0px 0px 10px;
+            margin-left: 25px;
+            text-align: left;
+            color: #f0f0f0;
+          }
+          .text p{
+            font-size: 16px;
+            color: #f0f0f0;
+          }
+          .new4{
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        /* ***********width for column 2 , 4, 5******** */
+
+          .footer .block {
+            width: 160px;
+            box-sizing: border-box;
+            padding: 0px 5px 0px 5px;
+          }
+        
+          /* ***********width for column 3************ */
+
+          .footer .block3 {
+            width: 300px;
+            box-sizing: border-box;
+            padding: 0px 5px 5px 5px;
+          }
+
+        /* ***********styling all column = 2,3,4,5*********** */
+         .footer .block h1,
+          .footer .block3 h1{
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            font-size: 29px;
+            line-height: 17px;
+            padding: 20px 0px 20px 0px;
+            color: #fff;
+            font-weight:540;
+            text-transform:capitalize;
+          }
+         .footer .block ul,  .footer .block3 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          .footer .block ul li,.footer .block3 ul li{
+            word-spacing: 2px;
+            padding: 5px 0px 5px 0px;
+            cursor: pointer;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+          }
+          .footer .block ul li a,.footer .block3 ul li a {
+            color: #f0f0f0;
+            font-size: 14px;
+            font-family: inherit;
+            font-weight:470;
+            word-spacing: 2px;
+            padding: 5px 0px 5px 0px;
+            cursor: pointer;
+            transition: .2s;
+            text-decoration: none;
+        
+          }
+          
+          .footer .block ul li a:hover ,  .footer .block3 ul li a:hover{
+            color: rgb(24, 6, 90);
+            font-weight:bold;
+            transition: .1s;
+            -webkit-transition: .1s;
+            -moz-transition: .1s;
+          }
+          .margin{
+            margin-top: 10px!important;
+          }
+
+          /* **********icon section footer******** */
+          .icon{
+            cursor: pointer;
+            color: #fff;
+            margin-left: 70px;
+          }
+          .icon i{
+            padding: 13px;
+            font-size: 25px;
+          }
+          .icon a{
+              text-decoration: none;
+              color: #f0f0f0;
+            }
+          .icon p{
+            color: #fff;
+            font-size: 15px;
+          }
+          .icon i:hover {
+            color: rgb(24, 6, 90);
+            transition: .1s;
+            -webkit-transition: .1s;
+            -moz-transition: .1s;
+          }
+
+
+          @media only screen and (max-width:970px) {
+            .width {
+              width:500px;
+              height: auto;
+              padding: 10px;
+            }
+            .width h1{
+              font-size: 25px;
+            }
+            .new{
+              height:auto;
+            }
+           
+
+            .footer .block h1,
+          .footer .block3 h1{
+           font-size: 20px;
+          }
+        
+        }
+        @media only screen and (max-width:730px) {
+          .new1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .footer {
+          display: flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction: column;
+        }
+         .width{
+          height: auto;
+          max-width: 100%;
+          padding: 20px;
+         }
+        }
+        @media only screen and (max-width:550px){
+          .width{
+            width:300px ;
+          }
+          .footer {
+            display: flex;
+            justify-content:center;
+            align-items:left;
+            align-items: center;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+        }
